@@ -2,9 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
 }
 
 body {
   color: #fff;
   background-color: #111111;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
 }
