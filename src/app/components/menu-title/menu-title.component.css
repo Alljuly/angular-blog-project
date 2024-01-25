@@ -1,0 +1,12 @@
+.menu__title__container > h1 {
+  margin: 4rem 0;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.menu__title__container > hr {
+  margin: 1.5rem 0;
+}
