@@ -1,3 +1,23 @@
+.articles {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .container__articles {
   margin: 1rem 0 0 1rem;
+  flex: 1;
+}
+
+.articles__others {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
 }

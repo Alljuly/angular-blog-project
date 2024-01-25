@@ -1,0 +1,11 @@
+.container__menu-bar > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+ul > li {
+  margin: 1rem;
+  list-style: none;
+}
