@@ -7,8 +7,9 @@ import { ActivatedRoute, ActivationEnd } from '@angular/router';
   styleUrl: './component.component.css',
 })
 export class ComponentComponent implements OnInit {
+  id: String | null = '';
   constructor(private route: ActivatedRoute) {}
   ngOnInit(): void {
-    this.route.paramMap.subscribe((value) => console.log(value.get('id')));
+    this.route.paramMap.subscribe((value) => (this.id = value.get('id')));
   }
 }
